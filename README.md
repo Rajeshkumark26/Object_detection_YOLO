@@ -18,7 +18,7 @@ The three files that needs to be downloaded are -
 
 - [coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
 - [yolov3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
-- [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+
 
 Download these files and save it inside a folder. Name the folder anything you wish, but I have named it as **yolo-coco** just because of the fact that we are going to use the coco dataset objects.
 
@@ -38,14 +38,21 @@ I am using the ***numpy*** version ***1.17.4*** and ***opencv*** version ***3.4.
 You can now run the file by giving this command on your command promt
 
 ```
-python yolo.py --image images/ipl.jpeg
+python yolo.py --image images/table.jpeg
 ```
+
+## Sample output
+
+![object_detection](https://github.com/Rajeshkumark26/Object_detection_YOLO/blob/main/demo.JPG)
 
 You can use any image you want after the `--image` argument. Make sure you give the right path.
 
-Press **q** to quit the window of the image showing object detection
 
-Feel free to star ⭐ this repo if you find this useful and visit my [YouTube](https://www.youtube.com/channel/UCaOiKrS-R1Nuya0pxjQ68fA) channel if you have time.
+## Contacts:
+* **Created by:[Rajesh Kumar K]**
+* **Email:[rajescse123@gmail.com]**
+* **LinkedIn: [www.linkedin.com/in/rajeshkumar-k]**
+
 
 Thanks!
 
