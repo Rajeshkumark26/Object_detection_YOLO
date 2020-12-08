@@ -1,14 +1,9 @@
 # Object Detection on images using YOLO
 
 **YOLO (You Only Look Once)** is a very powerful and a fast algorithm in object detection. A strong understanding of the algorithm is essential before we start to code.
+## Sample output
 
-**Some important papers to start with -**
-
-There are three papers you need to go through *(Maybe difficult to understand initially, but worth reading it)*
-
-- [You Only Look Once: Unified, Real-Time Object Detection](https://pjreddie.com/media/files/papers/yolo.pdf)
-- [YOLO9000: Better, Faster, Stronger](https://pjreddie.com/media/files/papers/YOLO9000.pdf)
-- [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+![object_detection](https://github.com/Rajeshkumark26/Object_detection_YOLO/blob/main/demo.JPG)
 
 We are going to use YOLO v3 for our coding purpose in this repository.
 
@@ -41,9 +36,7 @@ You can now run the file by giving this command on your command promt
 python yolo.py --image images/table.jpeg
 ```
 
-## Sample output
 
-![object_detection](https://github.com/Rajeshkumark26/Object_detection_YOLO/blob/main/demo.JPG)
 
 You can use any image you want after the `--image` argument. Make sure you give the right path.
 
